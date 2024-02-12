@@ -10,5 +10,6 @@ export class FiltersComponent {
   categories = ['shoes','sports']
   onShowCategory(category: string): void {
     this.showCategory.emit(category)
+    console.log(category)
   }
 }
